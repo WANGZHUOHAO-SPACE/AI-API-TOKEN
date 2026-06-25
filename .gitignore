@@ -1,0 +1,9 @@
+target/
+.idea/
+.vscode/
+*.iml
+.env
+logs/
+application-local.yml
+frontend/node_modules/
+frontend/dist/
