@@ -1,6 +1,6 @@
 # KeyBridge AI
 
-## Windows 答辩一键启动
+## Windows 一键启动
 
 先确认本机 MySQL（3306）和 Redis（6379）已经启动，然后在项目根目录执行：
 

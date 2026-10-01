@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d1ffe71-6d81-4480-bbe2-51f7eb622581" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/API TOKEN中转站/软件(专升本)2503王卓浩23852417-Web全栈开发-项目报告.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/软件(专升本)2503王卓浩23852417-Web全栈开发-项目报告.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3F57SzlGsDqQbpYmnyukitRDAV4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/WANGZHUOHAO/Documents/API TOKEN中转站",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "ts.external.directory.path": "C:\\Users\\WANGZHUOHAO\\Documents\\API TOKEN中转站\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="KeyBridgeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="keybridge-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.keybridge.KeyBridgeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2d1ffe71-6d81-4480-bbe2-51f7eb622581" name="更改" comment="" />
+      <created>1781353080245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781353080245</updated>
+      <workItem from="1781353081366" duration="9000" />
+      <workItem from="1781353486933" duration="13000" />
+      <workItem from="1781353953597" duration="358000" />
+      <workItem from="1781354341760" duration="1102000" />
+      <workItem from="1781355661880" duration="12000" />
+      <workItem from="1781355683458" duration="103000" />
+      <workItem from="1781410328103" duration="176000" />
+      <workItem from="1781425641334" duration="963000" />
+      <workItem from="1781587500044" duration="16000" />
+      <workItem from="1781589182477" duration="1679000" />
+      <workItem from="1781597278275" duration="1191000" />
+      <workItem from="1781667481857" duration="621000" />
+      <workItem from="1781879254442" duration="31000" />
+      <workItem from="1781879302080" duration="21000" />
+      <workItem from="1781879385374" duration="63000" />
+      <workItem from="1781879663852" duration="15000" />
+      <workItem from="1782266859129" duration="1331000" />
+      <workItem from="1782355211503" duration="290000" />
+      <workItem from="1783145036116" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

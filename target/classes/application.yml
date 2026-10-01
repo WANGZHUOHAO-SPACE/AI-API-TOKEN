@@ -1,0 +1,59 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: keybridge-backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_URL:jdbc:mysql://localhost:3306/keybridge_ai?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
+      schema-locations: classpath:db/schema.sql
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      database: ${REDIS_DATABASE:0}
+      timeout: 2s
+  jackson:
+    default-property-inclusion: non_null
+    time-zone: Asia/Shanghai
+    date-format: yyyy-MM-dd HH:mm:ss
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:change-this-development-secret-at-least-32-bytes}
+    expiration: ${JWT_EXPIRATION:7200}
+  crypto:
+    key: ${CRYPTO_KEY:change-this-32-byte-aes-key-value}
+  proxy:
+    mode: ${PROXY_MODE:MOCK}
+  pricing:
+    source-url: ${PRICING_SOURCE_URL:https://jeniya.chat/api/pricing_new}
+  rate-limit:
+    user-daily-limit: ${USER_DAILY_LIMIT:100}
+    key-minute-limit: ${KEY_MINUTE_LIMIT:10}
+  demo:
+    enabled: ${DEMO_DATA_ENABLED:false}
+  payment:
+    usdt-address: ${USDT_ADDRESS:请配置 USDT_ADDRESS}
+    usdt-network: ${USDT_NETWORK:TRC20}
+    exchange-rate-url: ${EXCHANGE_RATE_URL:https://api.frankfurter.dev/v2/rate/USD/CNY}
+    fallback-usd-cny-rate: ${FALLBACK_USD_CNY_RATE:7.20}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

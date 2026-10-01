@@ -1,0 +1,13 @@
+com\keybridge\common\config\DemoDataInitializerTest.class
+com\keybridge\common\security\SecurityConfigCorsTest.class
+com\keybridge\common\security\JwtTokenProviderTest.class
+com\keybridge\module\auth\dto\RegisterRequestValidationTest.class
+com\keybridge\module\proxy\service\ChatProxyServiceTest.class
+com\keybridge\common\crypto\AesGcmServiceTest.class
+com\keybridge\module\log\service\RequestLogServiceImplTest.class
+com\keybridge\common\controller\HealthControllerTest.class
+com\keybridge\module\provider\entity\ProviderCredentialSerializationTest.class
+com\keybridge\common\crypto\ApiKeyMaskerTest.class
+com\keybridge\module\provider\service\ProviderCredentialServiceImplTest.class
+com\keybridge\module\auth\dto\ChangePasswordRequestValidationTest.class
+com\keybridge\module\user\controller\UserControllerTest.class
